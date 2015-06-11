@@ -30,5 +30,6 @@
     <module>04_dist-webservice</module>
     <module>05_dist-springrmi</module>
     <module>06_dist-cxf</module>
+    <module>07_dist-dubbo</module>
   </modules>
 </project>

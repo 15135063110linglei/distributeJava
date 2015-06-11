@@ -1,0 +1,4 @@
+Dubbo 是在阿里广泛应用的RPC框架，简单方便。zookeeper用于实现HA常用的一种方案。
+
+步骤
+教程：http://blog.yuanxiaolong.cn/blog/2015/01/11/zookeeper-and-dubbo/
