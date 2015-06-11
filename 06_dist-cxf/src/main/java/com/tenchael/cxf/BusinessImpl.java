@@ -1,17 +1,17 @@
-package com.tenchael.rmi.impl;
+package com.tenchael.cxf;
 
-import java.rmi.RemoteException;
-
-import com.tenchael.rmi.Business;
+import javax.jws.WebService;
 
 /**
+ * 描述：以webservice方式对外暴露的服务
  * 
- * @author Tenchael
+ * @author Administrator
  *
  */
+@WebService(serviceName = "BusinessService", endpointInterface = "com.tenchael.cxf.Business")
 public class BusinessImpl implements Business {
 
-	public String echo(String message) throws RemoteException {
+	public String echo(String message) {
 		if ("quit".equalsIgnoreCase(message.toString())) {
 			System.out.println("Server will be shutdown!");
 			System.exit(0);

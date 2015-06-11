@@ -1,4 +1,4 @@
-package com.tenchael.mina;
+package com.tenchael.cxf;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

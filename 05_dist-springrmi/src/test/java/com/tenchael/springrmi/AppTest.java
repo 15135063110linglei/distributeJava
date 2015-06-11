@@ -1,4 +1,4 @@
-package com.tenchael.mina;
+package com.tenchael.springrmi;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

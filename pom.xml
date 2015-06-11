@@ -27,5 +27,8 @@
     <module>udp-chat</module>
     <module>02_dist-mina</module>
     <module>03_dist-rmi</module>
+    <module>04_dist-webservice</module>
+    <module>05_dist-springrmi</module>
+    <module>06_dist-cxf</module>
   </modules>
 </project>

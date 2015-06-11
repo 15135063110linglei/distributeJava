@@ -1,17 +1,14 @@
-package com.tenchael.rmi.impl;
-
-import java.rmi.RemoteException;
-
-import com.tenchael.rmi.Business;
+package com.tenchael.springrmi;
 
 /**
+ * 描述：对外暴露的服务
  * 
- * @author Tenchael
+ * @author Administrator
  *
  */
 public class BusinessImpl implements Business {
 
-	public String echo(String message) throws RemoteException {
+	public String echo(String message) {
 		if ("quit".equalsIgnoreCase(message.toString())) {
 			System.out.println("Server will be shutdown!");
 			System.exit(0);
